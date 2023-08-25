@@ -11,7 +11,7 @@ import SwiftUI
 struct Demo_NavigationStackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
         }
     }
 }

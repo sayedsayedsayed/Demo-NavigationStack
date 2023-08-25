@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		ECCC87662A97085100C3531D /* Demo_NavigationStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87652A97085100C3531D /* Demo_NavigationStackApp.swift */; };
-		ECCC87682A97085100C3531D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87672A97085100C3531D /* ContentView.swift */; };
 		ECCC876A2A97085100C3531D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCC87692A97085100C3531D /* Assets.xcassets */; };
 		ECCC876D2A97085100C3531D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCC876C2A97085100C3531D /* Preview Assets.xcassets */; };
+		ECCC87762A97089B00C3531D /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87752A97089B00C3531D /* RouterViewModel.swift */; };
+		ECCC87782A9708B900C3531D /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87772A9708B900C3531D /* FirstView.swift */; };
+		ECCC877A2A9708C600C3531D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87792A9708C600C3531D /* SecondView.swift */; };
+		ECCC877C2A9708D000C3531D /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC877B2A9708D000C3531D /* ThirdView.swift */; };
+		ECCC877E2A9708D900C3531D /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC877D2A9708D900C3531D /* FourthView.swift */; };
+		ECCC87802A9708E400C3531D /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC877F2A9708E400C3531D /* FifthView.swift */; };
+		ECCC87822A9708EC00C3531D /* SixthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC87812A9708EC00C3531D /* SixthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECCC87622A97085100C3531D /* Demo-NavigationStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-NavigationStack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCC87652A97085100C3531D /* Demo_NavigationStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_NavigationStackApp.swift; sourceTree = "<group>"; };
-		ECCC87672A97085100C3531D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECCC87692A97085100C3531D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCC876C2A97085100C3531D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECCC87752A97089B00C3531D /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
+		ECCC87772A9708B900C3531D /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		ECCC87792A9708C600C3531D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		ECCC877B2A9708D000C3531D /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		ECCC877D2A9708D900C3531D /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		ECCC877F2A9708E400C3531D /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		ECCC87812A9708EC00C3531D /* SixthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				ECCC87652A97085100C3531D /* Demo_NavigationStackApp.swift */,
-				ECCC87672A97085100C3531D /* ContentView.swift */,
+				ECCC87742A97088200C3531D /* ViewModel */,
+				ECCC87732A97085800C3531D /* View */,
 				ECCC87692A97085100C3531D /* Assets.xcassets */,
 				ECCC876B2A97085100C3531D /* Preview Content */,
 			);
@@ -65,6 +78,27 @@
 				ECCC876C2A97085100C3531D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECCC87732A97085800C3531D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC87772A9708B900C3531D /* FirstView.swift */,
+				ECCC87792A9708C600C3531D /* SecondView.swift */,
+				ECCC877B2A9708D000C3531D /* ThirdView.swift */,
+				ECCC877D2A9708D900C3531D /* FourthView.swift */,
+				ECCC877F2A9708E400C3531D /* FifthView.swift */,
+				ECCC87812A9708EC00C3531D /* SixthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECCC87742A97088200C3531D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC87752A97089B00C3531D /* RouterViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCC87682A97085100C3531D /* ContentView.swift in Sources */,
+				ECCC87762A97089B00C3531D /* RouterViewModel.swift in Sources */,
+				ECCC877A2A9708C600C3531D /* SecondView.swift in Sources */,
+				ECCC87822A9708EC00C3531D /* SixthView.swift in Sources */,
+				ECCC87782A9708B900C3531D /* FirstView.swift in Sources */,
+				ECCC877E2A9708D900C3531D /* FourthView.swift in Sources */,
+				ECCC877C2A9708D000C3531D /* ThirdView.swift in Sources */,
+				ECCC87802A9708E400C3531D /* FifthView.swift in Sources */,
 				ECCC87662A97085100C3531D /* Demo_NavigationStackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
